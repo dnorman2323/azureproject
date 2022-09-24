@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+    <title>Server Info</title>
+    <link rel="stylesheet" type="text/css" href="style/server_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+</head>
+<body>
+  <div class="card">
+    <div class="header">
+      <div class="image">
+        <img src="https://normabwebblob.blob.core.windows.net/normanblobstorage/serverpic.png" id="backimg" alt=""/>
+      </div>
+        <h2>Dan's Server</h2>
+    </div>
+    <script src="script/serverinfo.js">
+    </script>
+    <div id="rest">Loading ...</div>
+  </div>
+  <br><br>
+  <div class="messageboard">
+    <label for="uname" style="color:white"; >Input Message: </label>
+    <input type="text" id="message">
+    <button id="btn" style="float: right;">Submit</button>
+    <br><br>
+    <textarea readonly type="text" id="textarea">Welcome to the Message Board! Please enter a message above to interact with community!
+
+    </textarea>
+    <br><br>
+    <ul></ul>
+    <script src="script/messageboard.js"></script>
+  </div>
+
+</body>
+</html>
